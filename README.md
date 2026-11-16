@@ -2,7 +2,7 @@
 
 A daily cron job reads Epic's free-games feed, stores every giveaway in MySQL,
 and sends a gaming-styled email when a new free game **goes live** or **is
-announced**. A PHP page at **games.cxx.dk** shows what's free now, what's next,
+announced**. A PHP page at **freegames.cxx.dk** shows what's free now, what's next,
 and the past 12 months grouped by month → Epic week (Thu → Thu), newest first.
 
 No Composer packages. Needs PHP 8.1+ with `pdo_mysql`, `curl`, `openssl` and `mbstring`.
@@ -10,7 +10,7 @@ No Composer packages. Needs PHP 8.1+ with `pdo_mysql`, `curl`, `openssl` and `mb
 ## Files
 
 ```
-/var/www/games.cxx.dk/
+/var/www/freegames.cxx.dk/
 ├── config.php            ← YOUR SETTINGS: DB + Simply.com SMTP user/pass (create from config.sample.php)
 ├── config.sample.php
 ├── bootstrap.php
@@ -26,7 +26,7 @@ No Composer packages. Needs PHP 8.1+ with `pdo_mysql`, `curl`, `openssl` and `mb
 └── public/               ← nginx web root (index.php, assets/)
 ```
 
-**Credentials live in `/var/www/games.cxx.dk/config.php`**, under `'mail'`:
+**Credentials live in `/var/www/freegames.cxx.dk/config.php`**, under `'mail'`:
 `username` (full mailbox address on Simply.com), `password`, `from`, `to`.
 The DB password goes under `'db' => ['pass']`. The file sits outside the web root.
 
@@ -34,21 +34,21 @@ The DB password goes under `'db' => ['pass']`. The file sits outside the web roo
 
 **Don't upload:** `config.php` (local test copy), `public/email-preview.html`.
 
-1. **Upload** the folder to `/var/www/games.cxx.dk/` (everything except the two files above).
+1. **Upload** the folder to `/var/www/freegames.cxx.dk/` (everything except the two files above).
 
 2. **Database:**
    ```bash
    sudo mysql -e "CREATE DATABASE epic_free CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
      CREATE USER 'epic_free'@'localhost' IDENTIFIED BY 'CHANGE_ME';
      GRANT SELECT, INSERT, UPDATE, DELETE ON epic_free.* TO 'epic_free'@'localhost';"
-   sudo mysql epic_free < /var/www/games.cxx.dk/sql/schema.sql
+   sudo mysql epic_free < /var/www/freegames.cxx.dk/sql/schema.sql
    ```
 
 3. **Config:**
    ```bash
-   cd /var/www/games.cxx.dk
+   cd /var/www/freegames.cxx.dk
    sudo cp config.sample.php config.php
-   sudo chown root:www-data config.php && sudo chmod 640 config.php
+   sudo chown root:nginx config.php && sudo chmod 640 config.php
    sudo nano config.php        # DB pass, SMTP username/password, from, to
    ```
    Simply.com SMTP: `smtp.simply.com`, port `587` + `tls` (default) or `465` + `ssl`.
@@ -56,23 +56,24 @@ The DB password goes under `'db' => ['pass']`. The file sits outside the web roo
 
 4. **Load the history and test:**
    ```bash
-   sudo -u www-data php bin/import-seed.php
-   sudo -u www-data php bin/test-mail.php          # prints the SMTP conversation
-   sudo -u www-data php bin/check.php              # first real run, emails the current games
+   sudo -u nginx php bin/import-seed.php
+   sudo -u nginx php bin/test-mail.php          # prints the SMTP conversation
+   sudo -u nginx php bin/check.php              # first real run, emails the current games
    ```
 
-5. **Web:** copy `deploy/nginx-games.cxx.dk.conf` to `/etc/nginx/sites-available/games.cxx.dk`
-   (it uses the `/run/php-fpm-cxx.sock` PHP-FPM socket), symlink it into `sites-enabled`, then:
+5. **Web:** the server block uses the `/run/php-fpm-cxx.sock` PHP-FPM socket and plain
+   `fastcgi_params`, so it doesn't need Debian's `snippets/` folder.
    ```bash
+   sudo cp deploy/nginx-freegames.cxx.dk.conf /etc/nginx/conf.d/freegames.cxx.dk.conf
    sudo nginx -t && sudo systemctl reload nginx
-   sudo certbot --nginx -d games.cxx.dk
+   sudo certbot --nginx -d freegames.cxx.dk
    ```
-   (Point the `games.cxx.dk` DNS A/AAAA record at the server first.)
+   (Point the `freegames.cxx.dk` DNS A/AAAA record at the server first.)
 
 6. **Cron:**
    ```bash
    sudo cp deploy/freeloot.cron /etc/cron.d/freeloot && sudo chmod 644 /etc/cron.d/freeloot
-   sudo touch /var/log/freeloot.log && sudo chown www-data /var/log/freeloot.log
+   sudo touch /var/log/freeloot.log && sudo chown nginx /var/log/freeloot.log
    ```
 
 ## Day to day

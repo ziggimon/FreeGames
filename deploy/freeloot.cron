@@ -6,4 +6,4 @@
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-5 18 * * * www-data php /var/www/games.cxx.dk/bin/check.php >> /var/log/freeloot.log 2>&1
+5 18 * * * nginx php /var/www/freegames.cxx.dk/bin/check.php >> /var/log/freeloot.log 2>&1

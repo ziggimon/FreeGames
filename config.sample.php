@@ -4,7 +4,7 @@
  *
  * Copy to config.php (same folder) and fill in the blanks:
  *   cp config.sample.php config.php
- *   chown root:www-data config.php && chmod 640 config.php
+ *   chown root:nginx config.php && chmod 640 config.php
  *
  * config.php lives OUTSIDE the web root (public/), so nginx never serves it.
  */
@@ -13,7 +13,7 @@ return [
     'timezone' => 'Europe/Copenhagen',
 
     // Public URL of the web page (used for links in the email).
-    'site_url' => 'https://games.cxx.dk',
+    'site_url' => 'https://freegames.cxx.dk',
 
     // MySQL / MariaDB.
     'db' => [
