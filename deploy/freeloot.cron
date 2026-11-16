@@ -1,0 +1,9 @@
+# /etc/cron.d/freeloot — daily Epic free-games check.
+# Epic switches giveaways at 17:00 Danish time. 18:05 is after the switch whether
+# the server clock runs on UTC or Europe/Copenhagen, so new games are caught the
+# same evening. Running more often is harmless: an email only goes out when
+# something new appears.
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+5 18 * * * www-data php /var/www/games.cxx.dk/bin/check.php >> /var/log/freeloot.log 2>&1

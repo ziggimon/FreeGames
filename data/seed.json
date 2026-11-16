@@ -1,0 +1,758 @@
+{
+    "_about": "Past Epic Games Store giveaways used to pre-fill the history. Source: PC Gamer's 'Epic Games Store free games list' (fetched 2026-11-16). Dates are local (Copenhagen); each drop runs from 17:00 on 'start' to 17:00 on 'end'. Edit freely and re-run bin/import-seed.php. 'image' values were looked up on Steam by exact title where a match existed.",
+    "_notes": [
+        "TOMAK: Save the Earth Regeneration is listed by the source for both 2-9 Apr and 9-16 Apr 2026; only 2-9 Apr is kept here.",
+        "The source lists Flotsam for 12-19 Nov 2026, but Epic's live feed shows only Knightica; the current week is left to the live feed."
+    ],
+    "giveaways": [
+        {
+            "start": "2026-11-05",
+            "end": "2026-11-12",
+            "games": [
+                {
+                    "title": "Sorry We're Closed",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1796580/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-10-22",
+            "end": "2026-11-05",
+            "games": [
+                {
+                    "title": "Home"
+                },
+                {
+                    "title": "Sker Ritual",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1492070/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-10-15",
+            "end": "2026-10-22",
+            "games": [
+                {
+                    "title": "Agent A: A Puzzle in Disguise",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/801480/header.jpg"
+                },
+                {
+                    "title": "Bad Cheese",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3094480/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-10-08",
+            "end": "2026-10-15",
+            "games": [
+                {
+                    "title": "Out of Sight",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2526310/header.jpg"
+                },
+                {
+                    "title": "TerraScape",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2290000/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-10-01",
+            "end": "2026-10-08",
+            "games": [
+                {
+                    "title": "Buried Stars",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1025960/header.jpg"
+                },
+                {
+                    "title": "System Shock 2: 25th Anniversary Remaster",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/866570/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-09-24",
+            "end": "2026-10-01",
+            "games": [
+                {
+                    "title": "Astrea: Six Sided Oracles",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1755830/header.jpg"
+                },
+                {
+                    "title": "Mechabellum",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/669330/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-09-17",
+            "end": "2026-09-24",
+            "games": [
+                {
+                    "title": "Shogun Showdown",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2084000/header.jpg"
+                },
+                {
+                    "title": "Mindcop",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1517180/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-09-10",
+            "end": "2026-09-17",
+            "games": [
+                {
+                    "title": "Astral Ascent",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1280930/header.jpg"
+                },
+                {
+                    "title": "Luftrausers",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/233150/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-09-03",
+            "end": "2026-09-10",
+            "games": [
+                {
+                    "title": "Alone With You",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/564940/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-08-27",
+            "end": "2026-09-03",
+            "games": [
+                {
+                    "title": "Breathedge",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/738520/header.jpg"
+                },
+                {
+                    "title": "Rival Stars Horse Racing"
+                }
+            ]
+        },
+        {
+            "start": "2026-08-20",
+            "end": "2026-08-27",
+            "games": [
+                {
+                    "title": "Cardpocalypse",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/904400/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-08-13",
+            "end": "2026-08-20",
+            "games": [
+                {
+                    "title": "Caravan SandWitch",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1582650/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-08-06",
+            "end": "2026-08-13",
+            "games": [
+                {
+                    "title": "Beacon Pines",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1269640/header.jpg"
+                },
+                {
+                    "title": "We Were Here Together",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/865360/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-07-30",
+            "end": "2026-08-06",
+            "games": [
+                {
+                    "title": "OTXO",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1608640/header.jpg"
+                },
+                {
+                    "title": "Sol Cesto",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2738490/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-07-23",
+            "end": "2026-07-30",
+            "games": [
+                {
+                    "title": "Foretales",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1170080/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-07-16",
+            "end": "2026-07-23",
+            "games": [
+                {
+                    "title": "Echo Generation"
+                },
+                {
+                    "title": "Luto",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1729740/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-07-09",
+            "end": "2026-07-16",
+            "games": [
+                {
+                    "title": "Nova Lands",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1501610/header.jpg"
+                },
+                {
+                    "title": "Tattoo Tycoon",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2375260/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-07-02",
+            "end": "2026-07-09",
+            "games": [
+                {
+                    "title": "I Have No Mouth, and I Must Scream",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/245390/header.jpg"
+                },
+                {
+                    "title": "River City Girls 2",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1920480/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-06-25",
+            "end": "2026-07-02",
+            "games": [
+                {
+                    "title": "RollerCoaster Tycoon 3"
+                },
+                {
+                    "title": "Voidwrought",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2014550/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-06-18",
+            "end": "2026-06-25",
+            "games": [
+                {
+                    "title": "Citizen Sleeper",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1578650/header.jpg"
+                },
+                {
+                    "title": "Robobeat",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1456760/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-06-11",
+            "end": "2026-06-18",
+            "games": [
+                {
+                    "title": "Warhammer 40K Speed Freeks"
+                },
+                {
+                    "title": "The Ouroboros King",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2096510/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-06-04",
+            "end": "2026-06-11",
+            "games": [
+                {
+                    "title": "Songs of Conquest",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/867210/header.jpg"
+                },
+                {
+                    "title": "Rogue Waters",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1691190/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-05-28",
+            "end": "2026-06-04",
+            "games": [
+                {
+                    "title": "Calico",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1112890/header.jpg"
+                },
+                {
+                    "title": "Lonestar",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2056210/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-05-21",
+            "end": "2026-05-28",
+            "games": [
+                {
+                    "title": "Down In Bermuda",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1107300/header.jpg"
+                },
+                {
+                    "title": "Tomb Raider I-III Remastered"
+                }
+            ]
+        },
+        {
+            "start": "2026-05-14",
+            "end": "2026-05-21",
+            "games": [
+                {
+                    "title": "Sunderfolk",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2414270/header.jpg"
+                },
+                {
+                    "title": "Telltale Batman Shadows Edition"
+                }
+            ]
+        },
+        {
+            "start": "2026-05-07",
+            "end": "2026-05-14",
+            "games": [
+                {
+                    "title": "Arranger: A Role-Puzzling Adventure",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2596420/header.jpg"
+                },
+                {
+                    "title": "Trash Goblin",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2407830/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-04-30",
+            "end": "2026-05-07",
+            "games": [
+                {
+                    "title": "Oddsparks: An Automation Adventure",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1817800/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-04-23",
+            "end": "2026-04-30",
+            "games": [
+                {
+                    "title": "Doomblade",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/922050/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-04-16",
+            "end": "2026-04-23",
+            "games": [
+                {
+                    "title": "The Stone of Madness",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1309710/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-04-09",
+            "end": "2026-04-16",
+            "games": [
+                {
+                    "title": "Prop Sumo",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3089420/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-04-02",
+            "end": "2026-04-09",
+            "games": [
+                {
+                    "title": "Clone Drone in the Danger Zone",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/597170/header.jpg"
+                },
+                {
+                    "title": "TOMAK: Save the Earth Regeneration"
+                }
+            ]
+        },
+        {
+            "start": "2026-03-26",
+            "end": "2026-04-02",
+            "games": [
+                {
+                    "title": "Havendock",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2020710/header.jpg"
+                },
+                {
+                    "title": "Hyper Echelon",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/953330/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-03-19",
+            "end": "2026-03-26",
+            "games": [
+                {
+                    "title": "Electrician Simulator",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1080020/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-03-12",
+            "end": "2026-03-19",
+            "games": [
+                {
+                    "title": "Cozy Grove",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1458100/header.jpg"
+                },
+                {
+                    "title": "Isonzo",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1556790/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-03-05",
+            "end": "2026-03-12",
+            "games": [
+                {
+                    "title": "Turnip Boy Robs A Bank",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2097230/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-02-26",
+            "end": "2026-03-05",
+            "games": [
+                {
+                    "title": "Boxes: Lost Fragments",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2019810/header.jpg"
+                },
+                {
+                    "title": "My Night Job",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/437100/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-02-19",
+            "end": "2026-02-26",
+            "games": [
+                {
+                    "title": "Return To Ash",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3445830/header.jpg"
+                },
+                {
+                    "title": "Stalcraft: X Starter Edition"
+                }
+            ]
+        },
+        {
+            "start": "2026-02-12",
+            "end": "2026-02-19",
+            "games": [
+                {
+                    "title": "Nobody Wants To Die",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1939970/header.jpg"
+                },
+                {
+                    "title": "The Darkside Detective: A Fumble in the Dark",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/795420/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-02-05",
+            "end": "2026-02-12",
+            "games": [
+                {
+                    "title": "Botany Manor",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1425350/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-01-29",
+            "end": "2026-02-05",
+            "games": [
+                {
+                    "title": "Definitely Not Fried Chicken",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1036240/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-01-22",
+            "end": "2026-01-29",
+            "games": [
+                {
+                    "title": "Rustler"
+                }
+            ]
+        },
+        {
+            "start": "2026-01-15",
+            "end": "2026-01-22",
+            "games": [
+                {
+                    "title": "Styx: Master of Shadows",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/242640/header.jpg"
+                },
+                {
+                    "title": "Styx: Shards of Darkness",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/355790/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-01-08",
+            "end": "2026-01-15",
+            "games": [
+                {
+                    "title": "Bloons TD 6",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2026-01-01",
+            "end": "2026-01-08",
+            "games": [
+                {
+                    "title": "Total War: Three Kingdoms",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg"
+                },
+                {
+                    "title": "Wildgate",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3504780/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-31",
+            "end": "2026-01-01",
+            "games": [
+                {
+                    "title": "Chivalry 2",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1824220/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-30",
+            "end": "2025-12-31",
+            "games": [
+                {
+                    "title": "Trine Classic Collection"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-29",
+            "end": "2025-12-30",
+            "games": [
+                {
+                    "title": "Viewfinder",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1382070/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-28",
+            "end": "2025-12-29",
+            "games": [
+                {
+                    "title": "Skald: Against the Black Priory",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1069160/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-27",
+            "end": "2025-12-28",
+            "games": [
+                {
+                    "title": "Cassette Beasts",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1321440/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-26",
+            "end": "2025-12-27",
+            "games": [
+                {
+                    "title": "We Were Here Together",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/865360/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-25",
+            "end": "2025-12-26",
+            "games": [
+                {
+                    "title": "Disco Elysium"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-24",
+            "end": "2025-12-25",
+            "games": [
+                {
+                    "title": "The Callisto Protocol",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1544020/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-23",
+            "end": "2025-12-24",
+            "games": [
+                {
+                    "title": "Bloodstained: Ritual of the Night",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/692850/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-22",
+            "end": "2025-12-23",
+            "games": [
+                {
+                    "title": "Paradise Killer",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1160220/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-21",
+            "end": "2025-12-22",
+            "games": [
+                {
+                    "title": "Sorry We're Closed",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1796580/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-20",
+            "end": "2025-12-21",
+            "games": [
+                {
+                    "title": "Blood West",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1587130/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-19",
+            "end": "2025-12-20",
+            "games": [
+                {
+                    "title": "Eternights",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1402110/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-18",
+            "end": "2025-12-19",
+            "games": [
+                {
+                    "title": "Jotunnslayer: Hordes of Hel",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2820820/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-11",
+            "end": "2025-12-18",
+            "games": [
+                {
+                    "title": "Hogwarts Legacy",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-12-04",
+            "end": "2025-12-11",
+            "games": [
+                {
+                    "title": "The Darkside Detective",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/368390/header.jpg"
+                },
+                {
+                    "title": "Jackbox Party Pack 4"
+                }
+            ]
+        },
+        {
+            "start": "2025-11-27",
+            "end": "2025-12-04",
+            "games": [
+                {
+                    "title": "Universe for Sale",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1627840/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-11-20",
+            "end": "2025-11-27",
+            "games": [
+                {
+                    "title": "Zoeti",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1434540/header.jpg"
+                },
+                {
+                    "title": "Godzilla Voxel Wars",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2439780/header.jpg"
+                }
+            ]
+        },
+        {
+            "start": "2025-11-13",
+            "end": "2025-11-20",
+            "games": [
+                {
+                    "title": "Scourgebringer",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1037020/header.jpg"
+                },
+                {
+                    "title": "Songs of Silence",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2195410/header.jpg"
+                },
+                {
+                    "title": "Zero Hour",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1359090/header.jpg"
+                }
+            ]
+        }
+    ]
+}

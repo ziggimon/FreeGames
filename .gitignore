@@ -1,0 +1,7 @@
+# Local settings with credentials — create from config.sample.php on each machine
+/config.php
+
+# Local email render (bin/check.php --preview)
+/public/email-preview.html
+
+.DS_Store
