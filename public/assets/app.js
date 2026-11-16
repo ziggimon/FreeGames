@@ -23,14 +23,24 @@
   };
   if (timers.length) { tick(); setInterval(tick, 1000); }
 
-  // Active month chip while scrolling
+  // Active month chip while scrolling.
+  // Only the chip bar is scrolled sideways — never the page — so the page's
+  // momentum scroll on phones isn't interrupted when a new month comes into view.
+  const nav = document.querySelector('.months');
   const links = new Map([...document.querySelectorAll('[data-month-link]')].map(a => [a.dataset.monthLink, a]));
+  let current = null;
   const io = new IntersectionObserver(entries => {
     for (const e of entries) {
       if (!e.isIntersecting) continue;
-      links.forEach(a => a.classList.remove('on'));
       const a = links.get(e.target.dataset.month);
-      if (a) { a.classList.add('on'); a.scrollIntoView({ block: 'nearest', inline: 'nearest' }); }
+      if (!a || a === current) continue;
+      current?.classList.remove('on');
+      a.classList.add('on');
+      current = a;
+      const left = a.offsetLeft, right = left + a.offsetWidth;
+      if (nav && (left < nav.scrollLeft || right > nav.scrollLeft + nav.clientWidth)) {
+        nav.scrollTo({ left: left - (nav.clientWidth - a.offsetWidth) / 2, behavior: 'smooth' });
+      }
     }
   }, { rootMargin: '-140px 0px -60% 0px' });
   document.querySelectorAll('[data-month]').forEach(m => io.observe(m));

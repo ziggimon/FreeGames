@@ -53,7 +53,7 @@ $art = static function (array $g, int $w, string $class = 'art') {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/app.css?v=1">
+<link rel="stylesheet" href="assets/app.css?v=2">
 </head>
 <body>
 <div class="bg-grid" aria-hidden="true"></div>
@@ -173,6 +173,6 @@ $art = static function (array $g, int $w, string $class = 'art') {
   Times in <?= h(app_tz()->getName()) ?> · Updated daily from the Epic Games Store · Not affiliated with Epic Games.
 </footer>
 
-<script src="assets/app.js?v=1" defer></script>
+<script src="assets/app.js?v=2" defer></script>
 </body>
 </html>
